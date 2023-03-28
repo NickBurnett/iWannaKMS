@@ -18,7 +18,7 @@ const NewEmail: NextPage = () => {
 
   const submit = async () => {
     try {
-      const res = await fetch("/api/email", {
+      const res = await fetch("/api/walkin", {
         mode: "cors",
         method: "POST",
         headers: { "Content-Type": "application/json" },
