@@ -495,6 +495,14 @@ const Home: NextPage = () => {
                   >
                     REGISTER WALK-INS
                   </button>
+                  <button
+                    className="bg-red-300 p-3 rounded-lg font-bold hover:bg-red-200 block mt-4"
+                    onClick={() => {
+                      router.push('/stats');
+                    }}
+                  >
+                    Stats
+                  </button>
                 </div>
               )}
           </div>
